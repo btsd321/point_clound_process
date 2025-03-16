@@ -36,10 +36,10 @@ int main(int argc, char *argv[])
 {
     SetConsoleOutputCP(CP_UTF8);
     QApplication app(argc, argv);
-    //翻译初始化
-    btsd::CTranslation::Init();
     //日志初始化
     btsd::CLogFunction::Init();
+    //翻译初始化
+    btsd::CTranslation::Init();
     //设置初始化
     btsd::LoadConfig();
     //窗口初始化

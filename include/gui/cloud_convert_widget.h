@@ -25,6 +25,7 @@ namespace btsd
 
     private slots:
         void on_pB_return_clicked();
+        void slot_change_language();
 
     private:
         Ui::CCloudConvertWidget *ui;

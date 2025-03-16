@@ -1,6 +1,7 @@
 #include <QStyleOption>
 #include <QPainter>
 #include "gui/cloud_convert_widget.h"
+#include "app/translation.h"
 
 namespace btsd
 {
@@ -9,6 +10,8 @@ namespace btsd
         ui(new Ui::CCloudConvertWidget)
     {
         ui->setupUi(this);
+
+        connect(CTranslation::Instance(), &CTranslation::signal_change_language, this, &CCloudConvertWidget::slot_change_language);
     }
 
     CCloudConvertWidget::~CCloudConvertWidget()
@@ -28,5 +31,11 @@ namespace btsd
     {
         emit signal_return_home();
     }
+
+    void CCloudConvertWidget::slot_change_language()
+    {
+        ui->retranslateUi(this);
+    }
+
 }
 

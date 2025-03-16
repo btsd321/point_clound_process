@@ -5,23 +5,18 @@
     <name>CCloudConvertWidget</name>
     <message>
         <location filename="../ui/cloud_convert_widget.ui" line="14"/>
-        <source>Form</source>
-        <translation type="unfinished"></translation>
+        <source>Point Cloud Conversion</source>
+        <translation>点云转换</translation>
     </message>
     <message>
         <location filename="../ui/cloud_convert_widget.ui" line="22"/>
         <source>Return Home</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ui/cloud_convert_widget.ui" line="44"/>
-        <source>GroupBox</source>
-        <translation type="unfinished"></translation>
+        <translation>返回主页</translation>
     </message>
     <message>
         <location filename="../ui/cloud_convert_widget.ui" line="77"/>
         <source>Intput Point Cloud</source>
-        <translation type="unfinished"></translation>
+        <translation>输入点云</translation>
     </message>
     <message>
         <location filename="../ui/cloud_convert_widget.ui" line="87"/>
@@ -32,23 +27,23 @@
     <message>
         <location filename="../ui/cloud_convert_widget.ui" line="111"/>
         <source>Output Point Cloud Format</source>
-        <translation type="unfinished"></translation>
+        <translation>输出点云格式</translation>
     </message>
     <message>
         <location filename="../ui/cloud_convert_widget.ui" line="118"/>
         <location filename="../ui/cloud_convert_widget.ui" line="122"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>无</translation>
     </message>
     <message>
         <location filename="../ui/cloud_convert_widget.ui" line="167"/>
         <source>Output Folder Path</source>
-        <translation type="unfinished"></translation>
+        <translation>输出点云路径</translation>
     </message>
     <message>
         <location filename="../ui/cloud_convert_widget.ui" line="214"/>
         <source>Convert</source>
-        <translation type="unfinished"></translation>
+        <translation>转换</translation>
     </message>
 </context>
 <context>
@@ -56,22 +51,22 @@
     <message>
         <location filename="../ui/main_window.ui" line="14"/>
         <source>PointCloudProcess</source>
-        <translation type="unfinished">点云处理</translation>
+        <translation>点云处理</translation>
     </message>
     <message>
         <location filename="../ui/main_window.ui" line="32"/>
         <source>Chapter</source>
-        <translation type="unfinished"></translation>
+        <translation>篇章</translation>
     </message>
     <message>
         <location filename="../ui/main_window.ui" line="37"/>
         <source>Section</source>
-        <translation type="unfinished"></translation>
+        <translation>节</translation>
     </message>
     <message>
         <location filename="../ui/main_window.ui" line="42"/>
         <source>Subsection</source>
-        <translation type="unfinished"></translation>
+        <translation>小节</translation>
     </message>
     <message>
         <location filename="../ui/main_window.ui" line="47"/>
@@ -86,17 +81,17 @@
     <message>
         <location filename="../ui/main_window.ui" line="77"/>
         <source>Chapter 1</source>
-        <translation type="unfinished"></translation>
+        <translation>第一章</translation>
     </message>
     <message>
         <location filename="../ui/main_window.ui" line="81"/>
         <source>Section 3</source>
-        <translation type="unfinished"></translation>
+        <translation>第三节</translation>
     </message>
     <message>
         <location filename="../ui/main_window.ui" line="91"/>
         <source>Section 4</source>
-        <translation type="unfinished"></translation>
+        <translation>第四节</translation>
     </message>
     <message>
         <location filename="../ui/main_window.ui" line="112"/>
@@ -106,45 +101,47 @@
     <message>
         <location filename="../ui/main_window.ui" line="128"/>
         <source>Section 1</source>
-        <translation type="unfinished"></translation>
+        <translation>第一节</translation>
     </message>
     <message>
         <location filename="../ui/main_window.ui" line="133"/>
         <source>Section 2</source>
-        <translation type="unfinished"></translation>
+        <translation>第二节</translation>
     </message>
     <message>
         <location filename="../ui/main_window.ui" line="138"/>
+        <location filename="../src/app/translation.cpp" line="139"/>
+        <location filename="../src/app/translation.cpp" line="159"/>
         <source>Section 5</source>
-        <translation type="unfinished"></translation>
+        <translation>第五节</translation>
     </message>
     <message>
         <location filename="../ui/main_window.ui" line="143"/>
         <location filename="../ui/main_window.ui" line="168"/>
         <source>Subsection 1</source>
-        <translation type="unfinished"></translation>
+        <translation>第一小节</translation>
     </message>
     <message>
         <location filename="../ui/main_window.ui" line="148"/>
         <location filename="../ui/main_window.ui" line="173"/>
         <source>Subsection 2</source>
-        <translation type="unfinished"></translation>
+        <translation>第二小节</translation>
     </message>
     <message>
         <location filename="../ui/main_window.ui" line="153"/>
         <location filename="../ui/main_window.ui" line="178"/>
         <source>Subsection 3</source>
-        <translation type="unfinished"></translation>
+        <translation>第三小节</translation>
     </message>
     <message>
         <location filename="../ui/main_window.ui" line="158"/>
         <source>Subsection 4</source>
-        <translation type="unfinished"></translation>
+        <translation>第四小节</translation>
     </message>
     <message>
         <location filename="../ui/main_window.ui" line="163"/>
         <source>Subsection 5</source>
-        <translation type="unfinished"></translation>
+        <translation>第五小节</translation>
     </message>
 </context>
 </TS>

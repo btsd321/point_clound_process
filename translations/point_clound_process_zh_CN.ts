@@ -110,8 +110,6 @@
     </message>
     <message>
         <location filename="../ui/main_window.ui" line="138"/>
-        <location filename="../src/app/translation.cpp" line="139"/>
-        <location filename="../src/app/translation.cpp" line="159"/>
         <source>Section 5</source>
         <translation>第五节</translation>
     </message>

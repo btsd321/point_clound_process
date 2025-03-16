@@ -82,7 +82,6 @@ namespace btsd
                     if(QCoreApplication::instance()->installTranslator(iter.value().get()))
                     {
                         QLOG_INFO() << "install lauguage file:" << language_file_name[CTranslation::m_emLanguageType];
-                        return;
                     }
                     else
                     {
@@ -104,7 +103,6 @@ namespace btsd
                     if(QCoreApplication::instance()->installTranslator(iter.value().get()))
                     {
                         QLOG_INFO() << "install lauguage file:" << language_file_name[CTranslation::m_emLanguageType];
-                        return;
                     }
                     else
                     {
@@ -125,6 +123,7 @@ namespace btsd
     {
         if(emLanguageType == CTranslation::m_emLanguageType)
         {
+            QLOG_TRACE() << "The current language is the same as the target language.";
             return;
         }
 
@@ -150,16 +149,15 @@ namespace btsd
             {
                 if(QCoreApplication::instance()->installTranslator(iter.value().get()))
                 {
-                    QLOG_INFO() << "install lauguage file:" << language_file_name[CTranslation::m_emLanguageType];
                     CTranslation::m_emLanguageType = emLanguageType;
-                    emit CTranslation::Instance()->signal_change_language();
-                    return;
+                    QLOG_INFO() << "install lauguage file:" << language_file_name[CTranslation::m_emLanguageType];
+                    emit CTranslation::Instance()->signal_change_language();        
                 }
                 else
                 {
                     QLOG_WARN() << "Failed to install lauguage file:" << language_file_name[CTranslation::m_emLanguageType];
-                    return;
                 }
+                return;
             }
         }
 

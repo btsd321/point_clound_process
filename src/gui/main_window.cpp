@@ -18,7 +18,7 @@ namespace btsd
         langGroup->addAction(ui->action_english);
         langGroup->setExclusive(true);
 
-        connect(CTranslation::Instance(), SIGNAL(signal_change_language()), this, SLOT(slot_change_language()));
+        connect(CTranslation::Instance(), &CTranslation::signal_change_language, this, &CMainWindow::slot_change_language);
 
     }
 

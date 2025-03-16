@@ -9,6 +9,7 @@ namespace btsd
         : QMainWindow(parent), ui(new Ui::CMainWindow)
     {
         ui->setupUi(this);
+        ui->stacked_widget->setCurrentIndex(EM_WIDGET_ID_HOME);
 
         menuBar()->removeAction(ui->action_chinese);
         menuBar()->removeAction(ui->action_english);
@@ -19,7 +20,7 @@ namespace btsd
         langGroup->setExclusive(true);
 
         connect(CTranslation::Instance(), &CTranslation::signal_change_language, this, &CMainWindow::slot_change_language);
-
+        connect(ui->page_c1s1_1, &CCloudConvertWidget::signal_return_home, this, &CMainWindow::slot_return_home);
     }
 
     
@@ -42,6 +43,18 @@ namespace btsd
     {
         ui->retranslateUi(this);
     }
+
+    void CMainWindow::slot_return_home()
+    {
+        ui->stacked_widget->setCurrentIndex(EM_WIDGET_ID_HOME);
+    }
+
+    void CMainWindow::on_action_c1s1_1_triggered()
+    {
+        ui->stacked_widget->setCurrentIndex(EM_WIDGET_ID_C1S1_1);
+    }
+
+
 
 
 }

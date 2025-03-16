@@ -71,7 +71,7 @@ namespace btsd
         const QStringList uiLanguages = QLocale::system().uiLanguages();
         QLOG_INFO() << "System language:" << uiLanguages;
 
-        if((uiLanguages.contains("zh-CN"))||uiLanguages.contains("zh"))
+        if((uiLanguages.contains("zh-CN"))||(uiLanguages.contains("zh")))
         {
             //查找MAP中是否有中文翻译文件
             for(auto iter = CTranslation::m_maptranslators.begin(); iter != CTranslation::m_maptranslators.end(); iter++)

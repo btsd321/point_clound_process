@@ -175,14 +175,18 @@
     </message>
     <message>
         <location filename="../ui/main_window.ui" line="210"/>
-        <location filename="../ui/main_window.ui" line="221"/>
         <source>Ball Pivoting Algorithm</source>
         <translation>Ball Pivoting算法</translation>
     </message>
     <message>
+        <location filename="../ui/main_window.ui" line="221"/>
+        <source>Poisson Reconstruction</source>
+        <translation>Poisson 算法</translation>
+    </message>
+    <message>
         <location filename="../ui/main_window.ui" line="232"/>
         <source>Voxel Grid Reconstruction</source>
-        <translation>Poisson 算法</translation>
+        <translation>Voxel Grid 算法</translation>
     </message>
     <message>
         <location filename="../ui/main_window.ui" line="257"/>

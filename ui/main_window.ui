@@ -44,8 +44,195 @@
           </column>
           <item>
            <property name="text">
-            <string>新建项目</string>
+            <string>Point Cloud Processing</string>
            </property>
+           <property name="text">
+            <string>Common Point Cloud Storage Formats &amp; Conversions</string>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="text">
+             <string>Point Cloud Visualization</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="text">
+             <string>Spatial Transformations</string>
+            </property>
+            <property name="text">
+             <string>Translation</string>
+            </property>
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string>Rotation</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string>Planar Projection</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string>Affine Transformation</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string>Scaling</string>
+             </property>
+            </item>
+           </item>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="text">
+             <string>Preprocessing</string>
+            </property>
+            <property name="text">
+             <string>Outlier Filtering</string>
+            </property>
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string>Downsampling</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string>Upsampling</string>
+             </property>
+            </item>
+           </item>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="text">
+             <string>Registration</string>
+            </property>
+            <property name="text">
+             <string>Iterative Closest Point (ICP) Algorithm</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="text">
+             <string>Segmentation</string>
+            </property>
+            <property name="text">
+             <string>RANSAC Algorithm</string>
+            </property>
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string>DBSCAN Algorithm</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string>K-Means Clustering</string>
+             </property>
+            </item>
+           </item>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="text">
+             <string>Surface Reconstruction</string>
+            </property>
+            <property name="text">
+             <string>Alpha Shapes Algorithm</string>
+            </property>
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string>Ball Pivoting Algorithm</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string>Ball Pivoting Algorithm</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="text">
+              <string>Voxel Grid Reconstruction</string>
+             </property>
+            </item>
+           </item>
           </item>
          </widget>
         </item>

@@ -79,7 +79,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_2"/>
+         <widget class="QLineEdit" name="le_input_cloud_path"/>
         </item>
         <item>
          <widget class="QPushButton" name="pb_input_brose">

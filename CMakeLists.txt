@@ -22,6 +22,7 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS
 )
 
 find_package(QsLog REQUIRED)
+find_package(PCL REQUIRED)
 
 qt_standard_project_setup(
     I18N_SOURCE_LANGUAGE en_AS         # optional - this is the default
@@ -63,6 +64,7 @@ set(PROJECT_SHARED_LIBRARIES
 
 set(PROJECT_STATIC_LIBRARIES
     ${QsLog_LIBRARIES}
+    "${PCL_LIBRARIES}"
 )
 
 set(PROJECT_LIBRARIES
